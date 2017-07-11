@@ -26,8 +26,16 @@ namespace CALKULATOR
       
             textBox3.Text = resultValue.ToString();
         }
+        private void OneButtonClick(object sender, EventArgs e)
+        {
+            double first = Convert.ToDouble(textBox1.Text);
+            var calc = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double resultValue = calc.Calculate(first);
 
-       
+            textBox3.Text = resultValue.ToString();
+        }
+
+
     }
 }
 

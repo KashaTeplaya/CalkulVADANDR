@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace CALKULATOR
 {
-    public class Multy : ITwoArgumentsCalculator
+    public class Multyply : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

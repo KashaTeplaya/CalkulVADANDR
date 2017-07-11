@@ -12,14 +12,15 @@ namespace CALKULATOR
         {
             switch(CalcName)
             {
-                case "button1":
+                case "Plus":
                     return new Plus();
-                case "button2":
+                case "Div":
                     return new Div();
-                case "button3":
+                case "Minus":
                     return new Minus();
-                case "button4":
-                    return new Multy();
+                case "Multiply":
+                    return new Multyply();
+               
                 default:
                     throw new Exception("Neizvestnaya operaciya");
 
