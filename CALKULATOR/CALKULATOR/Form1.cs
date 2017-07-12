@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using CALKULATOR.OneArgumentsOperations;
+using CALKULATOR.OneArgumentsOperations;
 
 namespace CALKULATOR
 {

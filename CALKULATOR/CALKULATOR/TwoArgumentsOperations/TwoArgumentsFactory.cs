@@ -1,11 +1,12 @@
 ﻿using System;
+
 namespace CALKULATOR.OneArgumentsOperations
 {
     public static class TwoArgumentsFactory
     {
-        public static ITwoArgumentsCalculator CreateCalculator(string CalcName)
+        public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
-            switch(CalcName)
+            switch(calculatorName)
             {
                 case "Plus":
                     return new Plus();
