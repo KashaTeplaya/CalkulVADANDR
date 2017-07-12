@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CALKULATOR
+namespace CALKULATOR.OneArgumentsOperations
 {
     public class Arcsin : IOneArgumentsCalculator
     {

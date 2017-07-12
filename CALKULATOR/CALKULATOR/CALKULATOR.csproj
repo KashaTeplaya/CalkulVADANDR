@@ -50,7 +50,7 @@
     <Compile Include="OneArgumentsOperations\Arctg.cs" />
     <Compile Include="OneArgumentsOperations\Cos.cs" />
     <Compile Include="TwoArgumentsOperations\Div.cs" />
-    <Compile Include="OneArgumentsOperations\e.cs" />
+    <Compile Include="OneArgumentsOperations\Exponent.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,7 +59,7 @@
     </Compile>
     <Compile Include="OneArgumentsOperations\IOneArgumentsCalculator.cs" />
     <Compile Include="TwoArgumentsOperations\ITwoArgumentsCalculator.cs" />
-    <Compile Include="OneArgumentsOperations\Kvadrat.cs" />
+    <Compile Include="OneArgumentsOperations\Sqr.cs" />
     <Compile Include="OneArgumentsOperations\Ln.cs" />
     <Compile Include="OneArgumentsOperations\Log.cs" />
     <Compile Include="TwoArgumentsOperations\Minus.cs" />

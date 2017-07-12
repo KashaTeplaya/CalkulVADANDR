@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CALKULATOR
+namespace CALKULATOR.OneArgumentsOperations
 {
-    
+
     public static class OneArgumentsFactory
     {
         public static IOneArgumentsCalculator CreateCalculator(string CalcName)
@@ -26,18 +26,14 @@ namespace CALKULATOR
                 case "Ln":
                     return new Ln();
                 case "Kvadrat":
-                    return new Kvadrat();
+                    return new Sqr();
                 case "e":
-                    return new e();
-
+                    return new Exponent();
 
                 default:
-                    throw new Exception("Neizvestnaya operaciya");
-
-
+                    throw new Exception("Unknown operacion");
             }
         }
-
     }
 }
 

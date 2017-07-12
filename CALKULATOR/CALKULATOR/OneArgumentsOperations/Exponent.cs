@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CALKULATOR
+namespace CALKULATOR.OneArgumentsOperations
 {
-    public class e : IOneArgumentsCalculator
+    public class Exponent : IOneArgumentsCalculator
     {
         public double Calculate(double first)
         {
