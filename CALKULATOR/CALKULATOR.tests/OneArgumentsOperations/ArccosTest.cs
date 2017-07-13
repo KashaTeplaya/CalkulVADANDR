@@ -1,4 +1,5 @@
 ﻿using CALKULATOR.OneArgumentsOperations;
+using CALKULATOR.TwoArgumentsOperations;
 using NUnit.Framework;
 
 namespace CALKULATOR.tests.OneArgumentsOperations

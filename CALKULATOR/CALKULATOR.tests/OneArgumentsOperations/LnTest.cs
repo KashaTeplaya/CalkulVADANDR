@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CALKULATOR.OneArgumentsOperations;
+using CALKULATOR.TwoArgumentsOperations;
 using NUnit.Framework;
 
 namespace CALKULATOR.tests.OneArgumentsOperations
@@ -18,6 +15,12 @@ namespace CALKULATOR.tests.OneArgumentsOperations
             var calculator = new Ln();
             var actualResult = calculator.Calculate(first);
             Assert.AreEqual(expected, actualResult, 0.0001);
+        }
+        [Test]
+        public void ErrorTest()
+        {
+            var calculator = new Ln();
+            Assert.Throws<Exception>(() => calculator.Calculate(0));
         }
     }
 }

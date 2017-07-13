@@ -1,4 +1,5 @@
-﻿namespace CALKULATOR.OneArgumentsOperations
+﻿
+namespace CALKULATOR.TwoArgumentsOperations
 {
     public class Minus : ITwoArgumentsCalculator
     {
