@@ -79,7 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgumentsOperations\Sin.cs" />
     <Compile Include="OneArgumentsOperations\Tg.cs" />
-    <Compile Include="TwoArgumentsOperations\stependrobcs.cs" />
+    <Compile Include="TwoArgumentsOperations\Stependrobcs.cs" />
     <Compile Include="TwoArgumentsOperations\TwoArgumentsFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

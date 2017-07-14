@@ -21,7 +21,7 @@ namespace CALKULATOR.TwoArgumentsOperations
                 case "min":
                     return new Min();
                 case "stependrob":
-                    return new stependrobcs();
+                    return new Stependrobcs();
 
                 default:
                     throw new Exception("Neizvestnaya operaciya");
