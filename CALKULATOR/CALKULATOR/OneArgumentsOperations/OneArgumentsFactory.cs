@@ -29,6 +29,22 @@ namespace CALKULATOR.OneArgumentsOperations
                     return new Sqr();
                 case "e":
                     return new Exponent();
+                case "modulX":
+                    return new Abs();
+                case "minusX":
+                    return new MinusX();
+                case "desatvX":
+                    return new desatvX();
+                case "xx":
+                    return new DvastepenX();
+                case "logdva":
+                    return new logdva();
+                case "Abs":
+                    return new Abs();
+                case "delitX":
+                    return new desatvX();
+                case "Ctan":
+                    return new Ctan();
 
                 default:
                     throw new Exception("Unknown operacion");

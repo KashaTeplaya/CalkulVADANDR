@@ -45,11 +45,21 @@
             this.Log = new System.Windows.Forms.Button();
             this.Kvadrat = new System.Windows.Forms.Button();
             this.e = new System.Windows.Forms.Button();
+            this.stependrob = new System.Windows.Forms.Button();
+            this.logdva = new System.Windows.Forms.Button();
+            this.minusX = new System.Windows.Forms.Button();
+            this.xx = new System.Windows.Forms.Button();
+            this.delitX = new System.Windows.Forms.Button();
+            this.modulX = new System.Windows.Forms.Button();
+            this.Ctan = new System.Windows.Forms.Button();
+            this.desatvX = new System.Windows.Forms.Button();
+            this.min = new System.Windows.Forms.Button();
+            this.max = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
             // 
-            this.Plus.Location = new System.Drawing.Point(256, 92);
+            this.Plus.Location = new System.Drawing.Point(295, 92);
             this.Plus.Name = "Plus";
             this.Plus.Size = new System.Drawing.Size(75, 23);
             this.Plus.TabIndex = 0;
@@ -59,7 +69,7 @@
             // 
             // Div
             // 
-            this.Div.Location = new System.Drawing.Point(256, 121);
+            this.Div.Location = new System.Drawing.Point(295, 121);
             this.Div.Name = "Div";
             this.Div.Size = new System.Drawing.Size(75, 23);
             this.Div.TabIndex = 1;
@@ -69,7 +79,7 @@
             // 
             // Minus
             // 
-            this.Minus.Location = new System.Drawing.Point(333, 92);
+            this.Minus.Location = new System.Drawing.Point(376, 92);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(75, 23);
             this.Minus.TabIndex = 2;
@@ -79,7 +89,7 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(333, 121);
+            this.Multiply.Location = new System.Drawing.Point(376, 121);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(75, 23);
             this.Multiply.TabIndex = 3;
@@ -208,11 +218,121 @@
             this.e.UseVisualStyleBackColor = true;
             this.e.Click += new System.EventHandler(this.OneButtonClick);
             // 
+            // stependrob
+            // 
+            this.stependrob.Location = new System.Drawing.Point(175, 168);
+            this.stependrob.Name = "stependrob";
+            this.stependrob.Size = new System.Drawing.Size(75, 23);
+            this.stependrob.TabIndex = 18;
+            this.stependrob.Text = "x^(1/y)";
+            this.stependrob.UseVisualStyleBackColor = true;
+            this.stependrob.Click += new System.EventHandler(this.TwoButtonClick);
+            // 
+            // logdva
+            // 
+            this.logdva.Location = new System.Drawing.Point(252, 168);
+            this.logdva.Name = "logdva";
+            this.logdva.Size = new System.Drawing.Size(75, 23);
+            this.logdva.TabIndex = 19;
+            this.logdva.Text = "Log2(x)";
+            this.logdva.UseVisualStyleBackColor = true;
+            this.logdva.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // minusX
+            // 
+            this.minusX.Location = new System.Drawing.Point(12, 92);
+            this.minusX.Name = "minusX";
+            this.minusX.Size = new System.Drawing.Size(75, 23);
+            this.minusX.TabIndex = 20;
+            this.minusX.Text = "-x";
+            this.minusX.UseVisualStyleBackColor = true;
+            this.minusX.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // xx
+            // 
+            this.xx.Location = new System.Drawing.Point(12, 121);
+            this.xx.Name = "xx";
+            this.xx.Size = new System.Drawing.Size(75, 23);
+            this.xx.TabIndex = 21;
+            this.xx.Text = "2^x";
+            this.xx.UseVisualStyleBackColor = true;
+            this.xx.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // delitX
+            // 
+            this.delitX.Location = new System.Drawing.Point(87, 92);
+            this.delitX.Name = "delitX";
+            this.delitX.Size = new System.Drawing.Size(75, 23);
+            this.delitX.TabIndex = 22;
+            this.delitX.Text = "1/x";
+            this.delitX.UseVisualStyleBackColor = true;
+            this.delitX.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // modulX
+            // 
+            this.modulX.Location = new System.Drawing.Point(87, 121);
+            this.modulX.Name = "modulX";
+            this.modulX.Size = new System.Drawing.Size(75, 23);
+            this.modulX.TabIndex = 23;
+            this.modulX.Text = "|x|";
+            this.modulX.UseVisualStyleBackColor = true;
+            this.modulX.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // Ctan
+            // 
+            this.Ctan.Location = new System.Drawing.Point(168, 92);
+            this.Ctan.Name = "Ctan";
+            this.Ctan.Size = new System.Drawing.Size(75, 23);
+            this.Ctan.TabIndex = 24;
+            this.Ctan.Text = "Ctan";
+            this.Ctan.UseVisualStyleBackColor = true;
+            this.Ctan.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // desatvX
+            // 
+            this.desatvX.Location = new System.Drawing.Point(168, 121);
+            this.desatvX.Name = "desatvX";
+            this.desatvX.Size = new System.Drawing.Size(75, 23);
+            this.desatvX.TabIndex = 25;
+            this.desatvX.Text = "10^x";
+            this.desatvX.UseVisualStyleBackColor = true;
+            this.desatvX.Click += new System.EventHandler(this.OneButtonClick);
+            // 
+            // min
+            // 
+            this.min.Location = new System.Drawing.Point(356, 169);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(75, 23);
+            this.min.TabIndex = 26;
+            this.min.Text = "min(x,y)";
+            this.min.UseVisualStyleBackColor = true;
+            this.min.Click += new System.EventHandler(this.TwoButtonClick);
+            // 
+            // max
+            // 
+            this.max.Location = new System.Drawing.Point(356, 216);
+            this.max.Name = "max";
+            this.max.Size = new System.Drawing.Size(75, 23);
+            this.max.TabIndex = 27;
+            this.max.Text = "max(x,y)";
+            this.max.UseVisualStyleBackColor = true;
+            this.max.Click += new System.EventHandler(this.TwoButtonClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 261);
+            this.ClientSize = new System.Drawing.Size(463, 261);
+            this.Controls.Add(this.max);
+            this.Controls.Add(this.min);
+            this.Controls.Add(this.desatvX);
+            this.Controls.Add(this.Ctan);
+            this.Controls.Add(this.modulX);
+            this.Controls.Add(this.delitX);
+            this.Controls.Add(this.xx);
+            this.Controls.Add(this.minusX);
+            this.Controls.Add(this.logdva);
+            this.Controls.Add(this.stependrob);
             this.Controls.Add(this.e);
             this.Controls.Add(this.Kvadrat);
             this.Controls.Add(this.Ln);
@@ -257,6 +377,16 @@
         private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button Kvadrat;
         private System.Windows.Forms.Button e;
+        private System.Windows.Forms.Button stependrob;
+        private System.Windows.Forms.Button logdva;
+        private System.Windows.Forms.Button minusX;
+        private System.Windows.Forms.Button xx;
+        private System.Windows.Forms.Button delitX;
+        private System.Windows.Forms.Button modulX;
+        private System.Windows.Forms.Button Ctan;
+        private System.Windows.Forms.Button desatvX;
+        private System.Windows.Forms.Button min;
+        private System.Windows.Forms.Button max;
     }
 }
 

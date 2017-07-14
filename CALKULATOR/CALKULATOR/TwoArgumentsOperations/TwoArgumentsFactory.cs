@@ -16,7 +16,13 @@ namespace CALKULATOR.TwoArgumentsOperations
                     return new Minus();
                 case "Multiply":
                     return new Multyply();
-               
+                case "max":
+                    return new Max();
+                case "min":
+                    return new Min();
+                case "stependrob":
+                    return new stependrobcs();
+
                 default:
                     throw new Exception("Neizvestnaya operaciya");
             }
