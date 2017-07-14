@@ -45,10 +45,13 @@
   <ItemGroup>
     <Compile Include="FactoryTest\OneArgumentFacroryTest.cs" />
     <Compile Include="FactoryTest\TwoArgumentFactoryTest.cs" />
+    <Compile Include="OneArgumentsOperations\AbsTest.cs" />
     <Compile Include="OneArgumentsOperations\ArccosTest.cs" />
     <Compile Include="OneArgumentsOperations\ArcsinTest.cs" />
     <Compile Include="OneArgumentsOperations\ArctgTest.cs" />
     <Compile Include="OneArgumentsOperations\CosTest.cs" />
+    <Compile Include="OneArgumentsOperations\delitXTest.cs" />
+    <Compile Include="OneArgumentsOperations\DvastepenXTest.cs" />
     <Compile Include="OneArgumentsOperations\ExponentTest.cs" />
     <Compile Include="OneArgumentsOperations\LnTest.cs" />
     <Compile Include="OneArgumentsOperations\LogTest.cs" />
@@ -56,6 +59,8 @@
     <Compile Include="OneArgumentsOperations\SqrTest.cs" />
     <Compile Include="OneArgumentsOperations\TgTest.cs" />
     <Compile Include="TwoArgumentsOperations\DivTest.cs" />
+    <Compile Include="TwoArgumentsOperations\maxTest.cs" />
+    <Compile Include="TwoArgumentsOperations\minTest.cs" />
     <Compile Include="TwoArgumentsOperations\MinusTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsOperations\MultyplyTest.cs" />
